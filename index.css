@@ -17,4 +17,16 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width:35vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.uscore, .cscore{
+    text-align: center;
 }
