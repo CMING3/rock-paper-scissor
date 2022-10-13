@@ -18,8 +18,16 @@ body{
     flex-direction: column;
     gap: 20px;
     width:35vw;
+    height:70vh;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px){
+    .platform{
+        width:100vw;
+    }
 }
 
 .scoreboard{
@@ -28,5 +36,18 @@ body{
 }
 
 .uscore, .cscore{
+    text-align: center;
+}
+
+.end-game{
+    display: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100vw;
+    height:100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
